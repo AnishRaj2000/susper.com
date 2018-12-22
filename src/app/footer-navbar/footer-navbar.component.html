@@ -1,10 +1,9 @@
 <footer>
   <div class="footer-bar">
-
     <div class="left-side">
       <a routerLink="/about" routerLinkActive="active">About</a>
       <a href="//blog.fossasia.org/tag/susper/" id="blog">Blogs</a>
-      <a href="https://{{fossasia_repo}}/{{susperUrl}}" id="code">Code</a>
+      <a href="https://{{ fossasia_repo }}/{{ susperUrl }}" id="code">Code</a>
     </div>
 
     <div class="right-side">
@@ -13,7 +12,11 @@
         <ul class="dropdown-menu" id="fsett">
           <li><a routerLink="/preferences">Search settings</a></li>
           <li><a routerLink="/advancedsearch">Advanced Search</a></li>
-          <li><a routerLink="/crawlstartexpert" routerLinkActive="active">Crawl Job</a></li>
+          <li>
+            <a routerLink="/crawlstartexpert" routerLinkActive="active"
+              >Crawl Job</a
+            >
+          </li>
           <li><a routerLink="/help">Search Help</a></li>
         </ul>
       </span>
@@ -21,6 +24,5 @@
       <a routerLink="/terms" routerLinkActive="active">Terms</a>
       <a routerLink="/contact" routerLinkActive="active">Contact</a>
     </div>
-
   </div>
 </footer>
